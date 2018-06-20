@@ -1,13 +1,9 @@
 <?php
-include('.\world\world.php');
+include('world\world.php');
 
 $world = new World;
 
-$world->setNom("world");
-
-$deck = $world->setDeck('deck');
-
-
-
+$deck = $world->setDeck();
+var_dump($deck);
 
 

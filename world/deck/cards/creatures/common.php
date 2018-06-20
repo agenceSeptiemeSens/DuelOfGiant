@@ -1,5 +1,5 @@
 <?php 
-include ('.\world\deck\cards\creatures\creature.php');
+include ('creature.php');
 class Common extends Creature{
     public $nom;  
 
