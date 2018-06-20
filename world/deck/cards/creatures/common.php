@@ -1,9 +1,7 @@
 <?php 
-include ('./creature/creature.php');
+include ('.\world\deck\cards\creatures\creature.php');
 class Common extends Creature{
-    public $nom;
-
-    
+    public $nom;  
 
     /**
      * Get the value of nom

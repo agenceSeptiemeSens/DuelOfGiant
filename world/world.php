@@ -1,5 +1,5 @@
 <?php
-include_once('./deck/deck.php');
+include('.\world\deck\deck.php');
 
 class World {
 
@@ -10,7 +10,7 @@ class World {
     public function setDeck($cardName)
     {
         $this->deck = new Deck;
-        $this->setCommonCreature($cardName);
+
         return $this;
     }
 

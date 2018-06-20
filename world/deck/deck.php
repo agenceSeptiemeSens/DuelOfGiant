@@ -1,6 +1,5 @@
 <?php 
-include("./cards/creatures/common.php");
-include("./db/cartes.php");
+include('.\world\deck\cards\creatures\common.php');
 class Deck{
     private $nom;
 
