@@ -3,13 +3,23 @@ include('deck\deck.php');
 
 class World {
 
-    private $cards = array();
-
-    public function setDeck()
+    public function deck($cards)
     {
-        $deck = new Deck;
-        $deck->setCommonCreature("Gohaould");
-        $creatures[] = $deck;
-        return $creatures;
+        $deckRepository = new Deck;
+
+ 
+        foreach ($cards as $key=>$value) {
+            if($key == 'cuisine'){
+            $deck['cuisine'][] = $deckRepository->setDeck($value['creatures']);
+            }
+            if($key == 'cinema'){
+                $deck['cinema'][] = $deckRepository->setDeck($value['creatures']);
+            }
+        }
+
+
+
+
+        return $deck;
     }
 }
