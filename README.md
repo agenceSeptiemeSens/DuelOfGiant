@@ -1,4 +1,4 @@
-blog-api
-========
+DoG
+===
 
-A Symfony project created on June 27, 2018, 10:49 am.
+A Symfony project created on June 27, 2018, 2:39 pm.

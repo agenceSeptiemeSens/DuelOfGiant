@@ -1,12 +1,11 @@
 <?php
-include('deck\deck.php');
+include('Deck\Deck.php');
 
 class World {
 
     public function deck($cards)
     {
         $deckRepository = new Deck;
-
  
         foreach ($cards as $key=>$value) {
             if($key == 'cuisine'){
